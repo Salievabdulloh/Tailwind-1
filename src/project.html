@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <header>
+        <div class="flex items-center justify-between tab:pt-[26px] tab:px-[28px] tab:pb-[20px] py-5 pl-[24px] pr-5">
+            <img src="images/searchI.webp" class="w-[16px]">
+            <p class="">Avion</p>
+            <div class="flex items-center gap-[20px]">
+                <img src="images/Shopping-cart.png" class="w-[16px]">
+                <img src="images/pfp.png" class="w-[16px]">
+            </div>
+        </div>
+        <hr class="my-[20px] hidden tab:block">
+        <div class="hidden tab:block">
+            <ul class="flex mb-5 items-center justify-center gap-[44px]">
+                <li>Plant pots</li>
+                <li>Ceramics</li>
+                <li>Tables</li>
+                <li>Chairs</li>
+                <li>Crockery</li>
+                <li>Tableware</li>
+                <li>Cutlery</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class=" tab:relative">
+            <div class="hidden tab:block h-[704px] bg-[url('images/tables.jpg')] w-full bg-cover bg-center">
+            </div>
+            <div
+                class="bg-[#FFFFFF] px-[25px] pt-[47px] pb-8 tab:py-[47px] tab:pl-[56px] tab:pr-[61px] tab:absolute bottom-[130px] right-[80px] p">
+                <p class="tab:text-[32px] text-[24px] tab:w-[513px] text-[#22202E]">Luxury homeware for people who love
+                    timeless design
+                    quality</p>
+                <p class="text-[#5B5676] text-[18px] mt-5 tab:block hidden">Shop the new Spring 2022 collection today
+                </p>
+                <p class="text-[#5B5676] tab:text-[18px] mt-5 tab:hidden">With our new collection, view over 400 bespoke
+                    pieces from
+                    homeware through to furniture today</p>
+                <button class="mt-[157px] px-[32px] py-[16px] bg-[#F9F9F9]">View collection</button>
+            </div>
+            <img src="images/tables.jpg" class="tab:hidden">
+        </div>
+
+        <div class="py-[50px]">
+            <p class="text-[20px] mb-[36px]">What makes our brand different</p>
+            <div class="flex-col flex items-center">
+                <div class="bg-[#F9F9F9] py-[36px] px-[24px]">
+                    <img src="images/truck.png">
+                    <p class="py-3 text-[20px]">Next day as standard</p>
+                    <p class="">Order before 3pm and get your order the next day as standard</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer></footer>
+</body>
+
+</html>
