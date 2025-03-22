@@ -23,7 +23,7 @@ npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
         </div>
         <hr class="my-[20px] hidden tab:block">
         <div class="hidden tab:block">
-            <ul class="flex mb-5 items-center justify-center gap-[44px]">
+            <ul class="text-[#726E8D] flex mb-5 items-center justify-center gap-[44px]">
                 <li>Plant pots</li>
                 <li>Ceramics</li>
                 <li>Tables</li>
@@ -54,15 +54,57 @@ npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
             <img src="images/tables.jpg" class="tab:hidden">
         </div>
 
-        <div class="py-[50px]">
-            <p class="text-[20px] mb-[36px]">What makes our brand different</p>
-            <div class="flex-col flex items-center">
-                <div class="bg-[#F9F9F9] py-[36px] px-[24px]">
+        <div class="py-[50px] px-6 tab:p-[80px]">
+            <p class="text-[20px] tab:text-[24px] tab:text-center mb-[36px]">What makes our brand different</p>
+            <div class="flex-col tab:flex-row gap-5 flex items-center">
+                <div class="bg-[#F9F9F9] tab:p-[48px] mb-[26px] py-[36px] px-[24px]">
                     <img src="images/truck.png">
                     <p class="py-3 text-[20px]">Next day as standard</p>
                     <p class="">Order before 3pm and get your order the next day as standard</p>
                 </div>
+                <div class="bg-[#F9F9F9] tab:p-[48px] mb-[26px] py-[36px] px-[24px]">
+                    <img src="images/check.png">
+                    <p class="py-3 text-[20px]">Made by true artisans</p>
+                    <p class="">Handmade crafted goods made with real passion and craftmanship</p>
+                </div>
+                <div class="bg-[#F9F9F9] tab:p-[48px] mb-[26px] py-[36px] px-[24px]">
+                    <img src="images/Purchase.png">
+                    <p class="py-3 text-[20px]">Unbeatable prices</p>
+                    <p class="">For our materials and quality you won’t find better prices anywhere</p>
+                </div>
+                <div class="bg-[#F9F9F9] tab:p-[48px] mb-[26px] py-[36px] px-[24px]">
+                    <img src="images/plant.png">
+                    <p class="py-3 text-[20px]">Recycled packaging</p>
+                    <p class="">We use 100% recycled to ensure our footprint is more manageable</p>
+                </div>
             </div>
+        </div>
+
+        <div class="p-6 grid grid-cols-2 gap-x-4 gap-y-5 tab:flex justify-center gap-[20px]">
+            <div class="">
+                <img src="images/3vases.png">
+                <p class="text-[20px] mt-6 mb-2 text-[#2A254B]">Rustic Vase Set</p>
+                <p class="text-[18px] text-[#2A254B]">£155</p>
+            </div>
+            <div class="">
+                <img src="images/lamp.png">
+                <p class="text-[20px] mt-6 mb-2 text-[#2A254B]">The Lucy Lamp</p>
+                <p class="text-[18px] text-[#2A254B]">£399</p>
+            </div>
+            <div class="">
+                <img src="images/only-vase.png">
+                <p class="text-[20px] mt-6 mb-2 text-[#2A254B]">The Silky Vase</p>
+                <p class="text-[18px] text-[#2A254B]">£125</p>
+            </div>
+            <div class="">
+                <img src="images/chair.png" class="h-[201px] tab:h-[375px]">
+                <p class="text-[20px] mt-6 mb-2 text-[#2A254B]">The Dandy chair</p>
+                <p class="text-[18px] text-[#2A254B]">£250</p>
+            </div>
+        </div>
+
+        <div class="flex flex-col mt-[40px] mb-7 tab:mb-[40px] items-center">
+            <button class="py-4 px-[118px] tab:px-8 bg-[#F9F9F9]">View collection</button>
         </div>
     </main>
 
