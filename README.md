@@ -4,3 +4,6 @@ This is a **furniture store website** built using **HTML** and **Tailwind CSS**.
 
 ## 📂 Project Structure
 
+## How did i created my webssite
+I've built 3 projects that contains all my **mebels**
+
